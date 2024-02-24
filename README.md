@@ -40,7 +40,7 @@ To work locally with this project, follow the steps below:
 
 #### Install
 
-* Using VSCode the repository can be cloned from github
+* Using vscode the repository can be cloned from github
 * Next create a virtual environment by running:
 ```bash
 python3 -m venv venv
@@ -56,3 +56,15 @@ pip install -r dependencies.txt
 python app.py
 ```
 * In browser of choice run http://0.0.0.0:8080 or http://localhost:8080/
+
+### Using GitHub
+
+* Note when using GitHub Git commands are used to control the movement of data
+* To push and pull code in the repository
+. To push code: Use Source Control in side panel to commit changes to the respository and label updates
+. To pull code: Open a bash terminal and run
+```bash
+git pull
+```
+* Note branches can be used to contain updates and prevent overwriting updates
+. When merging branches it is important to avoiding overwriting code
