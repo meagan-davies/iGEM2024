@@ -1,4 +1,4 @@
-# Team Calgary 2023 Wiki
+# Team Calgary 2024 Wiki
 
 This repository **MUST** contain all coding assets to generate your team's wiki (HTML, CSS, JavaScript, TypeScript, Python, etc).
 
