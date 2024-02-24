@@ -34,7 +34,7 @@ The static assets are in the `static` directory. The layout and templates are in
   * [Fronzen-Flask](https://pythonhosted.org/Frozen-Flask): Library that builds the wiki to be deployed as a static website
   * [Bootstrap](https://getbootstrap.com/docs/5.0/components): CSS and JS components used
 
-### Building locally (advanced users)
+### Building Locally
 
 To work locally with this project, follow the steps below:
 
