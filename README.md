@@ -61,10 +61,10 @@ python app.py
 
 * Note when using GitHub Git commands are used to control the movement of data
 * To push and pull code in the repository
-. To push code: Use Source Control in side panel to commit changes to the respository and label updates
-. To pull code: Open a bash terminal and run
+    - To push code: Use Source Control in side panel to commit changes to the respository and label updates
+    - To pull code: Open a bash terminal and run
 ```bash
 git pull
 ```
 * Note branches can be used to contain updates and prevent overwriting updates
-. When merging branches it is important to avoiding overwriting code
+    - When merging branches it is important to avoiding overwriting code
