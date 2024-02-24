@@ -6,18 +6,6 @@ Images, photos, icons and fonts **MUST** be stored on `static.igem.wiki` using [
 
 For up-to-date requirements, resources, help and guidance, visit [competition.igem.org/deliverables/team-wiki](https://competition.igem.org/deliverables/team-wiki).
 
-## Getting started
-
-You should probably only edit the files inside folders `static`, `wiki` and `wiki > pages`.
-1. Open the Web IDE
-1. Make the changes on the files you wish:
-    * For the menu, change the file [menu.html](wiki/menu.html)
-    * For the layout, change the file [layout.html](wiki/layout.html)
-    * For the pages, change the corresponding file in the foler [pages](wiki/pages)
-1. Review the changes you made
-1. Once you are done, save the changes by **committing** them to the *main branch* of the repository
-1. An automated script will build, test and deploy your wiki, which should take less than 30 seconds.
-
 ## About this Template
 
 ### Files
@@ -51,9 +39,10 @@ The static assets are in the `static` directory. The layout and templates are in
 To work locally with this project, follow the steps below:
 
 #### Install
+
+* Using VSCode the repository can be cloned from github
+* Next create a virtual environment by running:
 ```bash
-git clone https://gitlab.igem.org/2023/calgary.git
-cd calgary
 python3 -m venv venv
 . venv/bin/activate # on Linux, MacOS; or
 . venv\Scripts\activate # on Windows
@@ -61,6 +50,9 @@ pip install -r dependencies.txt
 ```
 
 #### Execute
+
+* To run the website open a terminal and run:
 ```bash
 python app.py
 ```
+* In browser of choice run http://0.0.0.0:8080 or http://localhost:8080/
